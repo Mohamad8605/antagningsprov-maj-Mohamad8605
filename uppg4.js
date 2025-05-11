@@ -3,7 +3,7 @@ function uppg4() {
   const person = {};
 
   // objektet ska ha två properties, name och age
-  person.name = "Nils Nilsson"; // Du kan ändra namnet här
+  person.name = "Mohamad Alheresh"; 
   person.age = 25;
 
   // skriv ut med dotnotation åldern i konsolen

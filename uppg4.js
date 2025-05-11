@@ -1,12 +1,13 @@
-
 function uppg4() {
-  
-    // deklarera ett objekt med namnet person
-    // objektet ska ha två properties, name och age
-    // tilldela age 25
-    // skriv ut med dotnotation åldern i konsolen
+  // deklarera ett objekt med namnet person
+  const person = {};
 
+  // objektet ska ha två properties, name och age
+  person.name = "Nils Nilsson"; // Du kan ändra namnet här
+  person.age = 25;
 
+  // skriv ut med dotnotation åldern i konsolen
+  console.log(person.age);
 }
 
 module.exports = { uppg4 };
